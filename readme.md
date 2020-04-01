@@ -1,13 +1,11 @@
-# left-pad
+# Left Pad
 
-> Powered by Saasify
+> Left Pad as a service
 
-This SaaS project was bootstrapped with [Saasify](https://saasify.sh).
+This SaaS product was bootstrapped with [Saasify](https://saasify.sh).
 
-Note that this template includes an example OpenAPI spec pointing to [httbin.org](https://httpbin.org). You'll want to replace this spec with one representing your externally hosted API.
-
-See our [quick start](https://docs.saasify.sh/#/quick-start) for a walkthrough of how to get started and our [OpenAPI guide](https://docs.saasify.sh/#/openapi) for more information on generating your own OpenAPI spec.
+See our [quick start](https://docs.saasify.sh/#/quick-start) for a walkthrough of how to get started building your own SaaS APIs like this one.
 
 ## License
 
-MIT © [transitive-bullshit](https://github.com/transitive-bullshit)
+MIT © [Saasify](https://saasify.sh)

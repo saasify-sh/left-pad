@@ -1,4 +1,87 @@
 {
   "name": "left-pad",
-  "openapi": "./openapi.json"
+  "alias": "left-pad",
+  "openapi": "./dist/swagger.json",
+  "services": [
+    {
+      "path": "/",
+      "httpMethod": "GET",
+      "examples": [
+        {
+          "name": "Simple",
+          "input": {
+            "string": "123",
+            "length": 10,
+            "pad": "0"
+          }
+        }
+      ]
+    }
+  ],
+  "saas": {
+    "name": "Left Pad",
+    "heading": "Left Pad as a Service",
+    "subheading": "A revolutionary API that pads strings to the left.",
+    "repo": "https://github.com/saasify-sh/left-pad",
+    "theme": {
+      "name": "waves",
+      "buttonStyle": "rounded",
+      "color": "#ff6e6c",
+      "codeBlockDark": true,
+      "backgroundImage": "https://images.unsplash.com/photo-1525081905268-fc0b46e9d786?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80"
+    },
+    "features": [
+      {
+        "name": "Support Open Source",
+        "desc": "All proceeds will be donated to open source projects on [Open Collective](https://opencollective.com).",
+        "icon": "savings"
+      },
+      {
+        "name": "Simple",
+        "desc": "We're so focused on simplicity that we almost forgot to add functionality.",
+        "icon": "confirmation"
+      },
+      {
+        "name": "Get Going Fast",
+        "desc": "We don't really do anything, so setup is a breeze.",
+        "icon": "developer_activity"
+      },
+      {
+        "name": "Cost Effective",
+        "desc": "Because of serverless magics...",
+        "icon": "stripe_payments"
+      },
+      {
+        "name": "Documentation",
+        "desc": "The most extensive API docs you'll never use.",
+        "icon": "code_review"
+      },
+      {
+        "name": "Support",
+        "desc": "Please, please don't actually contact us.",
+        "icon": "questions"
+      },
+      {
+        "name": "Saasify",
+        "desc": "This API serves as both an April Fool's joke as well as an example of what you can build with [Saasify](http://saasify.sh).",
+        "icon": "business_shop"
+      }
+    ]
+  },
+  "pricingPlans": [
+    {
+      "name": "Free",
+      "rateLimit": {
+        "requestsInterval": "1h",
+        "requestsMaxPerInterval": 100
+      }
+    },
+    {
+      "name": "Unlimited",
+      "amount": 99,
+      "requests": {
+        "amount": 0.01
+      }
+    }
+  ]
 }
