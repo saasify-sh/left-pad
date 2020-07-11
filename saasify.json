@@ -33,7 +33,7 @@
     "features": [
       {
         "name": "Support Open Source",
-        "desc": "Any proceeds will be donated to open source projects on [Open Collective](https://opencollective.com).",
+        "desc": "All proceeds will be donated to open source projects on [Open Collective](https://opencollective.com).",
         "icon": "savings"
       },
       {
@@ -82,7 +82,7 @@
       "requests": {
         "amount": 0.01
       },
-      "features": ["Any proceeds will be donated to open source."]
+      "features": ["All proceeds will be donated to open source."]
     }
   ]
 }
